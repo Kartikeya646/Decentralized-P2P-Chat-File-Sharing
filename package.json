@@ -1,0 +1,18 @@
+{
+  "name": "decentralized-chat",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "signal": "node server.js"
+  },
+  "dependencies": {
+    "@helia/unixfs": "^4.0.0",
+    "helia": "^4.2.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
